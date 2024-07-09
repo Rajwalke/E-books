@@ -1,0 +1,291 @@
+
+:root {
+    /* color  */
+        --darkblue:#071952;
+        --lightblue:#088395;
+        --pureblue:#37B7C3;
+        --verylightblue:#DBE2EF;
+        --sahdoowblue:#3DC2EC;
+        --font:#EBF4F6;
+
+}
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    /* max-width: 200px;
+    width: 100%; */
+    background-color: var(--darkblue);
+    color: var(--font);
+    padding: 5px 20px;
+
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6vw;
+    font-weight: 600;
+}
+.mainFeed{
+    display: flex;
+    /* gap: 10px; */
+}
+
+.nav-option{
+    display: inline-block;
+    color:var(--font);
+    padding: 7px 15px;
+    /* background-color: var(--pureblue); */
+}
+.nav-option:hover{
+    border-radius: 10px;
+    background-color: #37B7C3;
+    /* padding: 10px; */
+}
+.list{
+    display: none;
+    color:var(--font);
+    padding: 7px 15px;
+}
+.semester1to8{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* semester 1 to 8 part main body  */
+.mainSemester{
+    padding: 50px 150px ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: #DBE2EF;
+    gap: 30px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    /* width: 100%; */
+}
+.sem{
+    background-color:#3DC2EC;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+
+}
+.sem:hover{
+    transform: scale(1.1,1);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+/* footer section in website  */
+.footer-Section{
+    flex-wrap: wrap;
+    background-color: #071952;
+    color: var(--font);
+    padding: 30px 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+.about-us{
+    width: 42vw;
+    padding: 15px;
+    text-align:justify
+}
+/* .about-us .au-main{ */
+.au-main{
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+.about-us .au-1{
+    font-size: 1.8rem;
+    font-weight: 600;
+    /* padding-bottom: 10px; */
+}
+
+.au-p{
+    font-size: 1.1rem;
+    text-align: justify;
+    padding-bottom: 5px;
+    /* padding: 10px 0px; */
+}
+.newemail{
+    background-color: #0F67B1;
+    color: #ffffff;
+    padding: 3px;
+}
+
+ .socialmedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px;
+ }
+ .icon{
+    padding: 6px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.facebook{
+    background-color: #1877F2;
+    
+}
+.insta{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+.twitter{
+    background-color: #14171A;
+}
+.linkdin{
+    background-color: #0A66C2;
+}
+.submit-btn{
+    font-size: 1.2rem;
+    display: block;
+    padding: 3px 10px;
+    background-color: #0F67B1;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+
+/* responsive */
+@media (max-width: 895px) {
+    .nav-option {
+        font-size: 1.9vw;
+        padding: 7px 7px;
+    }
+
+}
+
+
+@media(max-width: 680px) {
+    .logoimg{
+        width:170%;
+        height: 50px;
+    }
+    .nav-option12{
+        font-size: 1.5rem;
+    }
+    .allmenuholder{
+        display: none;
+        flex-direction: column;
+        background-color: #088395;
+        position: absolute;
+        padding: 20px 10px ;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        gap: 10px;
+        text-align: center;
+    }
+    .allmenuholder.active{
+        display: flex;
+    }
+   
+    .list{
+       
+        display: inline-block;
+        font-size: 1.8rem;
+    }
+    .mainSemester{
+        padding: 50px 60px ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #DBE2EF;
+        gap: 30px;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .sem{
+        background-color:#3DC2EC;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+        cursor:pointer;
+       
+    }
+    .sem:hover{
+        transform: scale(1.1,1);
+        transition-duration: 0.5s;
+    }
+    
+    .footer-Section{
+        
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: #071952;
+        color: var(--font);
+        padding: 30px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        width: 100%;
+    }
+    .about-us .au-1{
+        font-size: 1.4rem;
+        font-weight: 600;
+        /* padding-bottom: 10px; */
+    }
+    
+    .au-p{
+        font-size: 1rem;
+        text-align: justify;
+        padding-bottom: 5px;
+        /* padding: 10px 0px; */
+    }
+    .about-us{
+        width: 100%;
+        padding: 20px;
+        text-align:justify
+    }
+
+    .au-main{
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 10px 0px;
+    }
+    .follow-us{
+        width: 100%;
+        padding: 20px;
+        text-align:justify
+
+    }
+    .socialmedia{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 10px 0px;
+     }
+     .icon{
+        padding: 6px 8px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+}
