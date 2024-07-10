@@ -1,0 +1,191 @@
+
+:root {
+    /* color  */
+        --darkblue:#071952;
+        --lightblue:#088395;
+        --pureblue:#37B7C3;
+        --verylightblue:#DBE2EF;
+        --sahdoowblue:#3DC2EC;
+        --font:#EBF4F6;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: beige;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.back-btn{
+    padding: 20px;
+    font-size: 2rem;
+}
+.subnamep1{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px 12px;
+    padding-bottom: 50px;
+}
+
+.techbook{
+    display: flex;
+    font-size: 1.7rem;
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    border: 1px solid black;
+    margin: 10px 40px;
+    margin-bottom: 40px;
+    background-color: rgb(232, 232, 222);
+    border-radius: 10px;
+}
+.techbookp1{
+    font-size: 1.8rem;
+}
+.open{
+    font-size: 1.5rem;
+    background-color: #26ca0a;
+    padding: 12px 15px;
+    color: var(--font);
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+}
+table{
+    text-align: center;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    padding: 0px 50px;
+    padding-bottom: 80px;
+
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2vw 7vw;
+}
+.pyqtop{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.tablep1{
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px ;
+}
+.qsp1{
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color:#1E90FF;
+    color: var(--font);
+    border-radius: 10px;
+    text-align: justify;
+}
+.back-arrowp1{
+    cursor: pointer;
+    padding: 10px;
+}
+@media(max-width: 685px) {
+    .back-btn{
+        padding: 15px;
+        font-size: 1.5rem;
+    }
+    .subnamep1{
+        font-size: 1.4rem;
+        text-align: center;
+        font-weight: 600;
+        padding: 2px 10px;
+        padding-bottom: 15px;
+    }
+    .techbook{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.2rem;
+        font-weight: 600;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 35px;
+        border: 1px solid black;
+        margin: 5px 10px;
+        margin-bottom: 25px;
+        background-color: rgb(232, 232, 222);
+        border-radius: 10px;
+    }
+    .techbookp1{
+        font-size: 1.2rem;
+    }
+    .open{
+        font-size: 1rem;
+        background-color: #26ca0a;
+        padding: 5px 10px;
+        color: var(--font);
+        font-weight: 500;
+        border-radius: 10px;
+        text-align: center;
+        cursor: pointer;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 2vw 4vw;
+    }
+    .pyqtop{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .tdp1{
+        font-size: 0.9rem;
+    }
+    .tablep1{
+        font-size: 1.3rem;
+        font-weight: 700;
+        text-align: center;
+        padding: 5px ;
+    }
+    .qsp1{
+        padding: 5px 10px;
+        font-size: 1rem;
+        background-color:#1E90FF;
+        color: var(--font);
+        border-radius: 10px;
+        text-align: justify;
+    }
+    .back-arrowp1{
+        cursor: pointer;
+        padding: 10px;
+    }
+
+}
+@media(max-width: 438px) {
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 2vw 2vw;
+    }
+    .qsp1{
+        padding: 5px 5px;
+        font-size: 0.7rem;
+        background-color:#1E90FF;
+        color: var(--font);
+        border-radius: 10px;
+        text-align: center;
+    }
+    .tdp1{
+        font-size: 0.7rem;
+    }
+}
