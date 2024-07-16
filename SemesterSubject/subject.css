@@ -8,6 +8,10 @@
         --font:#EBF4F6;
 
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 
 *{
     
