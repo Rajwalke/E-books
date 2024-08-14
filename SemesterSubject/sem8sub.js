@@ -4,7 +4,13 @@ list.addEventListener('click',()=>{
     option.classList.toggle('active');
 
 })
-
+document.querySelector(".back-arrow").addEventListener("click",()=>{
+    document.querySelector(".back-arrowp1").innerHTML=`<i class="fa-solid fa-spinner fa-spin"></i>`;
+    setTimeout(()=>{
+       
+    },2000);
+   
+})
 document.querySelector(".HMI").addEventListener('click',()=>{
     window.location.href="http://127.0.0.1:5500/semester8subject/sem8HMI.html";
 })

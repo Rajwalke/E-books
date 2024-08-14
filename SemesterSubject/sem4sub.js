@@ -15,6 +15,7 @@ document.querySelector(".back-arrow").addEventListener("click",()=>{
 document.querySelector(".Mathematics4").addEventListener('click',()=>{
     window.location.href="http://127.0.0.1:5500/semester4subject/sem4maths4.html";
 })
+
 document.querySelector(".AOA").addEventListener('click',()=>{
     window.location.href="http://127.0.0.1:5500/semester4subject/sem4AOA.html";
 })

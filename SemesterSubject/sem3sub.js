@@ -4,7 +4,13 @@ list.addEventListener('click',()=>{
     option.classList.toggle('active');
 
 })
-
+document.querySelector(".back-arrow").addEventListener("click",()=>{
+    document.querySelector(".back-arrowp1").innerHTML=`<i class="fa-solid fa-spinner fa-spin"></i>`;
+    setTimeout(()=>{
+       
+    },2000);
+   
+})
 // document.querySelector(".Mathematics3").addEventListener('click',()=>{
 //     window.location.href="http://127.0.0.1:5500/semester3subject/sem3maths3.html";
 // });
