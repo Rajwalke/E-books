@@ -105,6 +105,18 @@ nav{
 .backchange{
     background-color:#60e550;
 }
+.back-btn{
+    padding: 20px;
+    padding-bottom: 0;
+    font-size: 2rem;
+    display: flex;
+    justify-content: start;
+    position: sticky;
+}
+.back-arrowp1{
+    cursor: pointer;
+    padding: 10px;
+}
 /* responsive  */
 @media (max-width: 895px) {
     .nav-option {
