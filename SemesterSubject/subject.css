@@ -92,7 +92,7 @@ nav{
 .sem-sub{
     padding: 20px 2px;
     font-size: 1.5rem;
-    background-color: #00bbf0;
+    background: radial-gradient(circle at 10% 20%, rgb(148, 241, 246) 0%, rgb(148, 189, 246) 100.7%);
     cursor: pointer;
     border-radius: 10px;
     font-weight: 600;
@@ -103,7 +103,7 @@ nav{
     transition-duration: 0.5s;
 }
 .backchange{
-    background-color:#60e550;
+    background: linear-gradient(112.9deg, rgb(112, 255, 151) 6.2%, rgb(70, 195, 255) 99.7%);
 }
 .back-btn{
     padding: 20px;

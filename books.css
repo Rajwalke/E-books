@@ -77,7 +77,7 @@ nav{
     /* width: 100%; */
 }
 .sem{
-    background-color:#3DC2EC;
+    background: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
     text-align: center;
     padding: 10px;
     border-radius: 10px;
